@@ -18,7 +18,6 @@ public class Pet {
         this.peso = peso;
     }
 
-    // Getters
     public int getId() { return id; }
     public String getNome() { return nome; }
     public String getEspecie() { return especie; }
