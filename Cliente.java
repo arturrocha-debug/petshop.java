@@ -19,14 +19,12 @@ public class Cliente {
         this.pets = new ArrayList<>();
     }
 
-    // Getters
     public int getId() { return id; }
     public String getNome() { return nome; }
     public String getTelefone() { return telefone; }
     public String getEmail() { return email; }
     public List<Pet> getPets() { return pets; }
 
-    // Método para adicionar um pet à lista do cliente
     public void adicionarPet(Pet pet) {
         this.pets.add(pet);
     }
