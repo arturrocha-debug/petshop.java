@@ -18,7 +18,6 @@ public class Contratacao {
         this.dataRealizacao = dataRealizacao;
     }
 
-    // Getters
     public int getId() { return id; }
     public Cliente getCliente() { return cliente; }
     public Pet getPet() { return pet; }
