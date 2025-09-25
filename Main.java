@@ -14,7 +14,7 @@ public class Main {
         do {
             exibirMenu();
             opcao = scanner.nextInt();
-            scanner.nextLine(); // Limpar o buffer
+            scanner.nextLine();
 
             switch (opcao) {
                 case 1: cadastrarCliente(); break;
